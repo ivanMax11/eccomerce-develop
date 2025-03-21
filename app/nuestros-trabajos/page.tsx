@@ -1,8 +1,6 @@
-export default function NuestrosTrabajosLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import React from "react";
+
+export default function NuestrosTrabajosPage() {
   return (
     <div>
       {/* Sección Nuestros Trabajos */}
@@ -154,9 +152,6 @@ export default function NuestrosTrabajosLayout({
           </div>
         </div>
       </section>
-
-      {/* Children (contenido adicional si es necesario) */}
-      {children}
     </div>
   );
 }
